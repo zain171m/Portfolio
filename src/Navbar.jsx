@@ -15,30 +15,30 @@ const Navbar = () => {
       </button>
       <button
         onClick={() => scrollToSection("skills")}
-        className="text-white  text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        className="text-white text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
       >
         Skills
       </button>
       <button
         onClick={() => scrollToSection("experience")}
-        className="text-white  text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
       >
         Experience
       </button>
       <button
         onClick={() => scrollToSection("courses")}
-        className="text-white  text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
       >
         Certificates
       </button>
       <a href="./Resume/Zain-Resume.pdf" download>
-        <button className="text-white   text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md ">
+        <button className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md ">
           Resume
         </button>
       </a>
       <button
         onClick={() => scrollToSection("contact")}
-        className="text-white  text-lg hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
       >
         Contact Me
       </button>

@@ -4,7 +4,7 @@ const Courses = () => {
       id="courses"
       className="bg-slate-800 pb-8 px-4 xl:px-28 lg:px-20 sm:px-8"
     >
-      <h1 className="text-6xl pt-16 text-white">
+      <h1 className="text-[46px] sm:text-6xl pt-16 text-white">
         Courses And Certifications 🏆
       </h1>
 

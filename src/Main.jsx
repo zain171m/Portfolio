@@ -27,22 +27,23 @@ const Main = () => {
     <div className="bg-slate-900 px-4 xl:px-28 lg:px-20 sm:px-8">
       <Navbar />
       <div className="py-16  text-xl text-white font-normal flex flex-auto space-x-1">
-        <p className="">Hi, my name is </p>
-        <p className="font-semibold">Muhammad Zain Nasir.</p>
+        <p className="font-semibold bg-gradient-to-r from-sky-400 to-purple-400 bg-clip-text text-transparent">
+          Hi, my name is Muhammad Zain Nasir.
+        </p>
       </div>
-      <p className="text-5xl text-white font-semibold animate-pulse">
+      <p className="text-4xl sm:text-5xl text-white font-semibold animate-pulse">
         {currentText}
       </p>
-      <p className="pt-14 text-2xl text-white font-normal">
+      <p className="pt-14 text-xl sm:text-2xl text-white font-normal">
         I am Engineering student and a software Engineer specializing in
         Blockchain development.
       </p>
-      <p className="text-2xl text-white font-normal">
+      <p className="text-xl sm:text-2xl text-white font-normal">
         Eager to shape the future of web3, I am currently seeking learning and
         internship opportunities to expand my skills and contribute to
         innovative projects.
       </p>
-      <div className="flex flex-row w-48 justify-start space-x-2">
+      <div className="flex flex-row w-48 justify-start space-x-2 pt-2">
         <a
           href="https://www.linkedin.com/in/zain--nasir"
           target="_blank"
@@ -52,8 +53,8 @@ const Main = () => {
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
-            width="100"
-            height="100"
+            width="80"
+            height="80"
             viewBox="0 0 48 48"
           >
             <path
@@ -75,8 +76,8 @@ const Main = () => {
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
-            width="100"
-            height="100"
+            width="80"
+            height="80"
             viewBox="0 0 64 64"
           >
             <linearGradient
@@ -122,8 +123,8 @@ const Main = () => {
             xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
-            width="100"
-            height="100"
+            width="80"
+            height="80"
             viewBox="0 0 48 48"
           >
             <path
@@ -149,7 +150,7 @@ const Main = () => {
           </svg>
         </a>
       </div>
-      <div className="space-x-8 pb-10 pt-4">
+      <div className="pb-10 pt-4 flex flex-row flex-wrap gap-4">
         <button
           onClick={() => scrollToSection("contact")}
           className="text-white rounded-md py-4 px-6 bg-purple-600 hover:bg-purple-500 "

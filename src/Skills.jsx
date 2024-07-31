@@ -4,7 +4,7 @@ const Skills = () => {
       id="skills"
       className="bg-slate-800 pb-8 px-4 xl:px-28 lg:px-20 sm:px-8"
     >
-      <h1 className="text-6xl pt-16 text-white">What I do</h1>
+      <h1 className=" text-5xl sm:text-6xl pt-16 text-white">What I do</h1>
 
       <div className=" md:grid grid-cols-2">
         <div className="px-10 py-5 mx-6 my-6 bg-slate-900 rounded-lg shadow-md hover:shadow-purple-900 ">
@@ -15,7 +15,7 @@ const Skills = () => {
             I develop highly interactive Front end / User Interfaces for your
             web applications utilizing languages and frameworks like
           </p>
-          <div className="flex flex-row flex-wrap space-x-5">
+          <div className="flex flex-row flex-wrap gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -74,8 +74,8 @@ const Skills = () => {
                 y2="6.19"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#e6abff"></stop>
-                <stop offset="1" stop-color="#6dc7ff"></stop>
+                <stop offset="0" stopColor="#e6abff"></stop>
+                <stop offset="1" stopColor="#6dc7ff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPra_ouWtcsgDBiwO_gr1)"
@@ -89,8 +89,8 @@ const Skills = () => {
                 y2="2.027"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#c822ff"></stop>
-                <stop offset="1" stop-color="#1a6dff"></stop>
+                <stop offset="0" stopColor="#c822ff"></stop>
+                <stop offset="1" stopColor="#1a6dff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPrb_ouWtcsgDBiwO_gr2)"
@@ -112,8 +112,8 @@ const Skills = () => {
                 y2="36.722"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#6dc7ff"></stop>
-                <stop offset="1" stop-color="#e6abff"></stop>
+                <stop offset="0" stopColor="#6dc7ff"></stop>
+                <stop offset="1" stopColor="#e6abff"></stop>
               </linearGradient>
               <circle
                 cx="32"
@@ -129,8 +129,8 @@ const Skills = () => {
                 y2="53.44"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#1a6dff"></stop>
-                <stop offset="1" stop-color="#c822ff"></stop>
+                <stop offset="0" stopColor="#1a6dff"></stop>
+                <stop offset="1" stopColor="#c822ff"></stop>
               </linearGradient>
               <path
                 fill="url(#9GkdZLxQa1XTDblOFwLcpb_t4YbEbA834uH_gr2)"
@@ -148,7 +148,7 @@ const Skills = () => {
             blockchain space and implement them utilizing languages and
             frameworks like
           </p>
-          <div className="flex flex-row flex-wrap space-x-5">
+          <div className="flex flex-row flex-wrap gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -182,10 +182,10 @@ const Skills = () => {
                   gradientTransform="translate(-2.326 11.158) scale(2.56617)"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#EDCF00" />
-                  <stop offset=".33" stop-color="#F0D500" />
-                  <stop offset=".77" stop-color="#F9E500" />
-                  <stop offset="1" stop-color="#FFF100" />
+                  <stop stopColor="#EDCF00" />
+                  <stop offset=".33" stopColor="#F0D500" />
+                  <stop offset=".77" stopColor="#F9E500" />
+                  <stop offset="1" stopColor="#FFF100" />
                 </linearGradient>
                 <linearGradient
                   id="b"
@@ -196,9 +196,9 @@ const Skills = () => {
                   gradientTransform="translate(-2.326 11.158) scale(2.56617)"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#EDCF00" />
-                  <stop offset=".59" stop-color="#F7E100" />
-                  <stop offset="1" stop-color="#FFF100" />
+                  <stop stopColor="#EDCF00" />
+                  <stop offset=".59" stopColor="#F7E100" />
+                  <stop offset="1" stopColor="#FFF100" />
                 </linearGradient>
                 <radialGradient
                   id="c"
@@ -208,10 +208,10 @@ const Skills = () => {
                   gradientTransform="matrix(47.57621 0 0 47.25236 7.172 132.114)"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FFF100" />
-                  <stop offset=".23" stop-color="#F9E500" />
-                  <stop offset=".67" stop-color="#F0D500" />
-                  <stop offset="1" stop-color="#EDCF00" />
+                  <stop stopColor="#FFF100" />
+                  <stop offset=".23" stopColor="#F9E500" />
+                  <stop offset=".67" stopColor="#F0D500" />
+                  <stop offset="1" stopColor="#EDCF00" />
                 </radialGradient>
               </defs>
               <path
@@ -271,8 +271,8 @@ const Skills = () => {
                 y2="6.19"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#e6abff"></stop>
-                <stop offset="1" stop-color="#6dc7ff"></stop>
+                <stop offset="0" stopColor="#e6abff"></stop>
+                <stop offset="1" stopColor="#6dc7ff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPra_ouWtcsgDBiwO_gr1)"
@@ -286,8 +286,8 @@ const Skills = () => {
                 y2="2.027"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#c822ff"></stop>
-                <stop offset="1" stop-color="#1a6dff"></stop>
+                <stop offset="0" stopColor="#c822ff"></stop>
+                <stop offset="1" stopColor="#1a6dff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPrb_ouWtcsgDBiwO_gr2)"
@@ -302,7 +302,7 @@ const Skills = () => {
             I integrate Solidity smart contracts with frontend applications
             utilizing modern technologies and frameworks like
           </p>
-          <div className="flex flex-row flex-wrap space-x-5">
+          <div className="flex flex-row flex-wrap gap-2">
             <img
               src="https://viem.sh/logo-light-hug.svg"
               alt="Logo"
@@ -333,8 +333,8 @@ const Skills = () => {
                 y2="6.19"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#e6abff"></stop>
-                <stop offset="1" stop-color="#6dc7ff"></stop>
+                <stop offset="0" stopColor="#e6abff"></stop>
+                <stop offset="1" stopColor="#6dc7ff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPra_ouWtcsgDBiwO_gr1)"
@@ -348,8 +348,8 @@ const Skills = () => {
                 y2="2.027"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0" stop-color="#c822ff"></stop>
-                <stop offset="1" stop-color="#1a6dff"></stop>
+                <stop offset="0" stopColor="#c822ff"></stop>
+                <stop offset="1" stopColor="#1a6dff"></stop>
               </linearGradient>
               <path
                 fill="url(#7v9jIz6DZNXGp18nfnOPrb_ouWtcsgDBiwO_gr2)"
@@ -364,7 +364,7 @@ const Skills = () => {
             I am also able to develop backend applications along with their
             databases utilizing technologies and framworks like
           </p>
-          <div className="flex flex-row flex-wrap space-x-5">
+          <div className="flex flex-row flex-wrap gap-2">
             <img
               src="https://img.icons8.com/?size=100&id=uLDrtp8o8zTG&format=png&color=000000"
               alt="Logo"

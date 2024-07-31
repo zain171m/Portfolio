@@ -5,16 +5,18 @@ const Contact = () => {
       className="bg-slate-900 pb-10  px-4 xl:px-28 lg:px-20 sm:px-8 flex flex-row flex-wrap"
     >
       <div className="lg:w-2/3">
-        <h1 className="text-6xl pt-16 text-white">Reach Out to me!</h1>
-        <p className="pt-14 pb-2 text-2xl text-white font-normal">
+        <h1 className="text-5xl sm:text-6xl pt-16 text-white">
+          Reach Out to me!
+        </h1>
+        <p className="pt-14 pb-2 text-xl sm:text-2xl text-white font-normal">
           &quot;Blockchain Enthusiast | Solidity, Hardhat, Ether.js, Viem/Wagmi,
           React JS, Redux, Python, JavaScript| Information Security Student at
           NUST&quot;
         </p>
-        <p className="text-xl py-2 text-slate-500 font-normal">
+        <p className=" text-lg sm:text-xl py-2 text-slate-500 font-normal">
           📍 Islamabad, Pakistan
         </p>
-        <p className="text-2xl py-2 text-white font-normal">
+        <p className="text-xl sm:text-2xl py-2 text-white font-normal">
           Open for opportunities
         </p>
         <div className="flex flex-row w-48 justify-start space-x-2 py-2">
@@ -27,8 +29,8 @@ const Contact = () => {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               viewBox="0 0 48 48"
             >
               <path
@@ -50,8 +52,8 @@ const Contact = () => {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               viewBox="0 0 64 64"
             >
               <linearGradient
@@ -97,8 +99,8 @@ const Contact = () => {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               viewBox="0 0 48 48"
             >
               <path
@@ -147,3 +149,4 @@ const Contact = () => {
 };
 
 export default Contact;
+//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
