@@ -1,5 +1,7 @@
 import { scrollToSection } from "./Scroll";
+import { useState } from "react";
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="py-9 flex flex-row justify-between align-middle mb-11 flex-wrap">
       <button>
@@ -14,34 +16,48 @@ const Navbar = () => {
         </span>
       </button>
       <button
-        onClick={() => scrollToSection("skills")}
-        className="text-white text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        className="text-white text-2xl xl:hidden"
+        onClick={() => setIsOpen(!isOpen)}
       >
-        Skills
+        {isOpen ? "✖️" : "☰"}
       </button>
-      <button
-        onClick={() => scrollToSection("experience")}
-        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+      <div
+        className={`${
+          isOpen ? "block" : "hidden"
+        } xl:flex flex flex-col xl:flex-row xl:justify-items-center w-full xl:w-auto gap-4 pt-4`}
       >
-        Experience
-      </button>
-      <button
-        onClick={() => scrollToSection("courses")}
-        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
-      >
-        Certificates
-      </button>
-      <a href="./Resume/Zain-Resume.pdf" download>
-        <button className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md ">
-          Resume
+        <button
+          onClick={() => scrollToSection("skills")}
+          className="text-white text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        >
+          Skills
         </button>
-      </a>
-      <button
-        onClick={() => scrollToSection("contact")}
-        className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
-      >
-        Contact Me
-      </button>
+        <button
+          onClick={() => scrollToSection("experience")}
+          className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        >
+          Experience
+        </button>
+        <button
+          onClick={() => scrollToSection("courses")}
+          className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        >
+          Certificates
+        </button>
+        <a
+          className="text-white text-center text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md"
+          href="./Resume/Zain-Resume.pdf"
+          download
+        >
+          Resume
+        </a>
+        <button
+          onClick={() => scrollToSection("contact")}
+          className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        >
+          Contact Me
+        </button>
+      </div>
     </div>
   );
 };
