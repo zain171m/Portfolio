@@ -157,7 +157,10 @@ const Main = () => {
         >
           CONTACT ME
         </button>
-        <a href="./Resume/Zain-Resume.pdf" download>
+        <a
+          href="https://drive.google.com/file/d/1G4wRzXkZ6scXnTRov5RBHU9eJAUxFsyJ/view?usp=sharing"
+          download
+        >
           <button className="text-white rounded-md py-4 px-6 bg-purple-600 hover:bg-purple-500">
             DOWNLOAD MY RESUME
           </button>

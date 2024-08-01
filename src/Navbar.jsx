@@ -46,7 +46,7 @@ const Navbar = () => {
         </button>
         <a
           className="text-white text-center text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md"
-          href="./Resume/Zain-Resume.pdf"
+          href="https://drive.google.com/file/d/1G4wRzXkZ6scXnTRov5RBHU9eJAUxFsyJ/view?usp=sharing"
           download
         >
           Resume
