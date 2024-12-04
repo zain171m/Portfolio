@@ -45,7 +45,7 @@ const Experience = () => {
             </h1>
             <p className="sm:text-xl text-lg">
               Developed Bene: Fundraising Platform, a DApp and various other
-              Blockchain source projects as Apprentice.
+              Blockchain open source projects as Apprentice.
             </p>
             <hr className="w-60 sm:w-80 h-0.5 my-4 bg-slate-500 border-0 rounded-sm group-hover:w-full group-hover:bg-purple-800"></hr>
           </div>
