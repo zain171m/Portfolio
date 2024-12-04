@@ -8,6 +8,23 @@ const Projects = () => {
 
       <div className=" md:grid grid-cols-2">
         <a
+          href="https://github.com/StabilityNexus/Bene-FundRaising-EVM-Frontend"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="px-10 py-10 mx-6 my-6 bg-slate-900 rounded-lg shadow-md hover:shadow-white hover:bg-purple-800">
+            <h1 className="text-2xl py-4 text-white">
+              Bene: Fundraising Platform 💴
+            </h1>
+            <p className="text-sm py-4 text-white">
+              Bene: Fundraising Platform is a decentralized application that
+              enables projects to receive funding in exchange for participation
+              tokens. This DApp allows projects to request ETH in exchange for
+              participation tokens.
+            </p>
+          </button>
+        </a>
+        <a
           href="https://github.com/zain171m/AASRAA-DAO"
           target="_blank"
           rel="noopener noreferrer"
@@ -50,20 +67,6 @@ const Projects = () => {
               Blockchain Learning Hub, your one-stop destination for blockchain
               research, articles, quizzes, and discussion forums. This project
               is part of my final project for CS50W.
-            </p>
-          </button>
-        </a>
-        <a
-          href="https://github.com/zain171m/Adopt_Me"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="px-10 py-10  mx-6 my-6 bg-slate-900 rounded-lg shadow-md hover:shadow-white hover:bg-purple-800 ">
-            <h1 className="text-2xl py-4 text-white">Adopt Me 🐶🐱</h1>
-            <p className="text-sm py-4 text-white">
-              A simple react app for pet adoption with all react basic features,
-              Pets API&apos;s and forms to search and adopt pets. This project
-              is part of React by brian holt course.
             </p>
           </button>
         </a>
