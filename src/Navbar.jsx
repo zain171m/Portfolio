@@ -39,6 +39,12 @@ const Navbar = () => {
           Experience
         </button>
         <button
+          onClick={() => scrollToSection("education")}
+          className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
+        >
+          Education
+        </button>
+        <button
           onClick={() => scrollToSection("courses")}
           className="text-white  text-lg sm:text-xl hover:bg-purple-800 px-5 py-4 rounded-sm shadow-md "
         >

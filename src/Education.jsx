@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="bg-slate-900 -mt-7 px-4 xl:px-28 lg:px-20 sm:px-8 xl:mt-0 text-white">
-      <h1 id="experience" className=" text-5xl sm:text-6xl pt-16 text-white">
+      <h1 id="education" className=" text-5xl sm:text-6xl pt-16 text-white">
         Education
       </h1>
       <div className="flex flex-row flex-wrap justify-center xl:justify-start py-10 gap-4">
