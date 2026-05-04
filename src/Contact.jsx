@@ -14,7 +14,7 @@ const Contact = () => {
           NUST&quot;
         </p>
         <p className=" text-lg sm:text-xl py-2 text-slate-500 font-normal">
-          📍 Islamabad, Pakistan
+          📍 Islamabad, Pakistan 🇵🇰
         </p>
         <p className="text-xl sm:text-2xl py-2 text-white font-normal">
           Open for opportunities
